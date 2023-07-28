@@ -69,6 +69,6 @@ def proxy_checker():
         for item in pst:
             file.write(item + '\n')
     logging.info('Writing is finished')
-    logging.info('Starting...')
+logging.info('Starting...')
 
 proxy_checker()
